@@ -49,8 +49,8 @@ RUN echo "Host output" >> /root/.ssh/config && \
 
 
 # Test clone of source and output repos
-RUN git clone git@source:aker-information-model/neat-source.git ./source
-RUN git clone git@output:aker-information-model/neat-output.git ./output
+RUN git clone git@source:aker-information-model/neat-source.git ./data/source
+RUN git clone git@output:aker-information-model/neat-output.git ./data/output
 
 
 WORKDIR /app
