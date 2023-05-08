@@ -15,7 +15,7 @@ ssh-keygen -t rsa -f ~/.ssh/neat-source -C "aker-information-model neat-source"
 ssh-keygen -t rsa -f ~/.ssh/neat-output -C "aker-information-model neat-output"
 ```
 
-Cat the public keys and copy/paste them into each repo’s respective GitHub deploy key:
+Cat the public keys and copy/paste them into each repo’s respective GitHub deploy keys:
 ```
 cat ~/.ssh/neat-source.pub
 cat ~/.ssh/neat-output.pub
