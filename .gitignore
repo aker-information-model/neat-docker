@@ -158,5 +158,5 @@ cognite/neat/explorer-ui/neat-app/node_modules
 
 
 # local notebooks
-docker/data
+docker/neat-volume
 local/

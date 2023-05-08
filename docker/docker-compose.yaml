@@ -2,6 +2,7 @@ version: '3'
 name: neat
 services:
   neat:
+    platform: linux/amd64
     image: akso/neat:latest
     ports:
       - "8000:8000"
