@@ -12,7 +12,7 @@ cd neat-config
 After cloning generate two sets of private and public keys:
 ```
 ssh-keygen -t rsa -f ~/.ssh/neat-source -C "aker-information-model neat-source"
-ssh-keygen -t rsa -f ~/.ssh/neat-output -C "aker-information-model neat-source"
+ssh-keygen -t rsa -f ~/.ssh/neat-output -C "aker-information-model neat-output"
 ```
 
 Cat the public keys and copy/paste them into each repo’s respective GitHub deploy key:
