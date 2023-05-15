@@ -14,7 +14,7 @@ Follow [instruction](https://docs.github.com/en/enterprise-server@3.4/authentica
 3. Click on `Personal access tokens`, then on `Tokens (classic)` and finally on `Generate new token`
 ![](./figs/personal-token-tokens-generate-token.png)
 
-4. Once menu appears click on `Generate new token (classic)
+4. Once menu appears click on `Generate new token (classic)`
 ![](./figs/generate-classic-token.png)
 
 5. Give this token some memorable note. Ideally you will keep `Expiration` as is, generally speaking do not set it to more than 90 days. Set token to have only `read:packages` scope, we simply want to allow pulling of NEAT docker image not writing!
