@@ -3,7 +3,7 @@
 Docker image tailored for AKSO needs
 
 
-Follow [instruction](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and create Github Personal Token. In short we provide quick visual steps on how to generate Github Personal Token:
+Follow [instruction](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and create Github Personal Token. In short we provide quick visual steps on how to generate Github Personal Token here as well.
 
 1. Logging to Github, click at account image and select `Settings`
 ![](./figs/settings.png)
