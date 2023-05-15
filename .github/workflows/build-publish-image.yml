@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish-hello-docker-image:
+  build-publish-neat:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
