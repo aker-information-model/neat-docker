@@ -11,7 +11,7 @@ Follow [instruction](https://docs.github.com/en/enterprise-server@3.4/authentica
 2. Under setting scroll to the bottom of the page and click on `Developer settings`
 ![](./figs/developer-settings.png)
 
-3. Click on `Personal access tokens`, then on `Tokens (classic) and finally on `Generate new token`
+3. Click on `Personal access tokens`, then on `Tokens (classic)` and finally on `Generate new token`
 ![](./figs/personal-token-tokens-generate-token.png)
 
 4. Once menu appears click on `Generate new token (classic)
