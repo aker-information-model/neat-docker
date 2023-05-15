@@ -1,4 +1,4 @@
-name: publish
+name: neat-docker
 on:
   release:
     types: [created]
