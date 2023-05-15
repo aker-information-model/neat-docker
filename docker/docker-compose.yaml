@@ -3,7 +3,7 @@ name: neat
 services:
   neat:
     platform: linux/amd64
-    image: akso/neat:latest
+    image: ghcr.io/aker-information-model/neat:latest
     ports:
       - "8000:8000"
     volumes:
