@@ -29,7 +29,7 @@ Follow [instruction](https://docs.github.com/en/enterprise-server@3.4/authentica
 7. When presented with new page click `Continue`
 ![](./figs/continue.png)
 
-8. Once the previous step is completed, when you check `SSO` you should be see `deauthorized` next to `aker-information-model`
+8. Once the previous step is completed, when you check `SSO` you should see `deauthorized` next to `aker-information-model`
 ![](./figs/akso-configured.png)
 
 
