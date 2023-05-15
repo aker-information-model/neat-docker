@@ -3,11 +3,40 @@
 Docker image tailored for AKSO needs
 
 
-Follow [instruction](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and create Github Personal Token.
+Follow [instruction](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and create Github Personal Token. In short we provide quick visual steps on how to generate Github Personal Token:
 
-Store Personal Token somewhere secure!
+1. Logging to Github, click at account image and select `Settings`
+![](./figs/settings.png)
 
-Then in terminal execute following commands (replace necessary value):
+2. Under setting scroll to the bottom of the page and click on `Developer settings`
+![](./figs/developer-settings.png)
+
+3. Click on `Personal access tokens`, then on `Tokens (classic) and finally on `Generate new token`
+![](./figs/personal-token-tokens-generate-token.png)
+
+4. Once menu appears click on `Generate new token (classic)
+![](./figs/generate-classic-token.png)
+
+5. Give this token some memorable note. Ideally you will keep `Expiration` as is, generally speaking do not set it to more than 90 days. Set token to have only `read:packages` scope, we simply want to allow pulling of NEAT docker image not writing!
+![](./figs/select-only-read-packages.png)
+
+6. Copy created token and story it somewhere safe (e.g., LastPass)
+![](./figs/copy-store-personal-token.png)
+
+6. Click on `Configure SSO` and select `aker-information-model` organization
+![](./figs/attach-ptoken-to-akso.png)
+
+7. When presented with new page click `Continue`
+![](./figs/continue.png)
+
+8. Once the previous step is completed, when you check `SSO` you should be see `deauthorized` next to `aker-information-model`
+![](./figs/akso-configured.png)
+
+
+The above config needs to be done once ever number of days you set for token expiration.
+The rest of the process is done via terminal, and expects that you have installed Docker and git on your machine.
+
+In terminal execute following commands (replace necessary value in the commands):
 
 ```
 export GIT_PERSONAL_TOKEN=insert_your_personal_token
@@ -34,7 +63,7 @@ docker volume create --name neat-volume --opt type=none --opt device=${PWD}/data
 
 
 
-Finally, start neat by executing command:
+Finally, start `NEAT` by executing command:
 
 ```
 docker-compose up -d
