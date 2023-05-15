@@ -18,13 +18,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and Publish Image
-        env:
-          SOURCE_PRV_KEY: ${{secrets.SOURCE_PRV_KEY}}
-          SOURCE_PUB_KEY: ${{secrets.SOURCE_PUB_KEY}}
-          OUTPUT_PRV_KEY: ${{secrets.OUTPUT_PRV_KEY}}
-          OUTPUT_PUB_KEY: ${{secrets.OUTPUT_PUB_KEY}}
         run: |
-               docker build -t ghcr.io/aker-information-model/neat:latest --build-arg source_prv_key="${{secrets.SOURCE_PRV_KEY}}" .
+               docker build -t ghcr.io/aker-information-model/neat:latest --build-arg source_prv_key="${{secrets.SOURCE_PRV_KEY}}" --build-arg source_pub_key="${{secrets.SOURCE_PUB_KEY}}" --build-arg output_prv_key="${{secrets.OUTPUT_PRV_KEY}}" --build-arg output_pub_key="${{secrets.OUTPUT_PUB_KEY}}" .
 #               docker build . --tag ghcr.io/aker-information-model/neat:${{ github.ref_name }} --tag ghcr.io/aker-information-model/neat:latest --build-arg source_prv_key=$SOURCE_PRV_KEY --build-arg source_pub_key=$SOURCE_PUB_KEY --build-arg output_prv_key=$OUTPUT_PRV_KEY --build-arg output_pub_key=$OUTPUT_PUB_KEY               
 #               docker push ghcr.io/aker-information-model/neat:${{ github.ref_name }}
  #              docker push ghcr.io/aker-information-model/neat:latest
