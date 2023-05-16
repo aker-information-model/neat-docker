@@ -56,15 +56,14 @@ cd neat-config/docker
 mkdir data
 ```
 
-Create docker volume where NEAT data will be stored and link it to `data` folder :
-```
-docker volume create --name neat-volume --opt type=none --opt device=${PWD}/data --opt o=bind
-```
-
-
-
 Finally, start `NEAT` by executing command:
 
 ```
 docker-compose up -d
+```
+
+In browser go to following address:
+
+```
+localhost:8000/
 ```
