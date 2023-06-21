@@ -3,7 +3,7 @@ name: neat
 services:
   neat:
     platform: linux/amd64
-    image: ghcr.io/aker-information-model/neat:0.11.0
+    image: ghcr.io/aker-information-model/neat:0.12.4
     ports:
       - "8000:8000"
     volumes:
