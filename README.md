@@ -45,7 +45,7 @@ If everything goes well, you should be able to see `neat` container running in D
 
 ![](media/docker_desktop.png)
 
-Now you can access `neat` through any browser, just navigate to [http://localhost:8000/](http://localhost:8000/)
+5. Now you can access `neat` through any browser, by navigating to [http://localhost:8000/](http://localhost:8000/)
 
 ![](media/neat_running.png)
 
