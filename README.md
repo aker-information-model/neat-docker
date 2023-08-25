@@ -53,13 +53,9 @@ Now you can access `neat` through any browser, just navigate to [http://localhos
 ## Setting up Github Personal Access Token
 
 
-https://github.com/aker-information-model/neat-docker/assets/35523348/b43cc6a4-1909-4874-bc7a-7bf33e558d05
-
-
-
 Video below shows steps how to create Personal Access Token which is used by `neat` to download `TransformationRules` from [Aker Information Model](https://github.com/aker-information-model) organization
 
-<video src="media/generating_personal_access_token.mp4" controls>
+[<video src="media/generating_personal_access_token.mp4" controls>
 </video>
-
+](https://github.com/aker-information-model/neat-docker/assets/35523348/b43cc6a4-1909-4874-bc7a-7bf33e558d05)https://github.com/aker-information-model/neat-docker/assets/35523348/b43cc6a4-1909-4874-bc7a-7bf33e558d05
 > Currently video does not have voice over!
