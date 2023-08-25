@@ -7,8 +7,10 @@ __pycache__/
 config.yaml
 real_data/
 data/
+dev-data/
+dev-data-*/
 
-!cognite/neat/examples/config.yaml
+!cognite/neat/workflows/examples/config.yaml
 requirements.txt
 
 # C extensions
@@ -16,7 +18,6 @@ requirements.txt
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
@@ -34,6 +35,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+!cognite/neat/workflows/steps/lib
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -58,7 +60,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-
+!tests/data
 # Translations
 *.mo
 *.pot
@@ -153,10 +155,10 @@ data/temp
 docker/vol_data/*
 docker/vol_shared/*
 
-cognite/neat/explorer-ui/neat-app/node_modules
-!cognite/neat/explorer-ui/neat-app/build
+cognite/neat/ui/neat-app/node_modules
+!cognite/neat/ui/neat-app/build
 
 
 # local notebooks
-docker/neat-volume
 local/
+playground/
