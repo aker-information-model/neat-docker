@@ -35,7 +35,7 @@ mkdir data
 > This step needs to be done only once!
 
 
-4. Continuing from the previous step the following command that will start neat on you computer:
+4. Continuing from the previous step execute the following command that will start neat on you computer:
 
 ```
 docker-compose up -d
