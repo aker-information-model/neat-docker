@@ -27,15 +27,7 @@ This will command downloads latest version of `neat` [docker image from Docker h
 
 > This step needs to be anytime you want to download latest version of neat image from the Docker hub!
 
-3. Assuming you are still in the folder where you saved `docker-compose.yaml` create folder called `data` :
-
-```
-mkdir data
-```
-> This step needs to be done only once!
-
-
-4. Continuing from the previous step execute the following command that will start neat on you computer:
+3. Continuing from the previous step execute the following command that will start neat on you computer:
 
 ```
 docker-compose up -d
@@ -45,7 +37,7 @@ If everything goes well, you should be able to see `neat` container running in D
 
 ![](media/docker_desktop.png)
 
-5. Now you can access `neat` through any browser, by navigating to [http://localhost:8000/](http://localhost:8000/)
+4. Now you can access `neat` through any browser, by navigating to [http://localhost:8000/](http://localhost:8000/)
 
 ![](media/neat_running.png)
 
