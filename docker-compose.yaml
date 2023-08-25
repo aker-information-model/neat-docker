@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - neat-volume:/app/data
+      - ./data:/app/data
     networks:
       - neat-net
 
@@ -14,11 +14,3 @@ networks:
   neat-net:
     driver: bridge
     external: false
-
-volumes:
-  neat-volume:
-    driver: local
-    driver_opts:
-      o: bind
-      type: none
-      device: ${PWD}/data
