@@ -57,4 +57,8 @@ Video below shows steps how to create Personal Access Token which is used by `ne
 
 
 
+https://github.com/aker-information-model/neat-docker/assets/35523348/0aa4608e-eb88-4a83-a0b4-3eb5813afc0e
+
+
+
 https://github.com/aker-information-model/neat-docker/assets/35523348/f1a9f95a-3588-45fa-bcbd-b03a6d186cac
